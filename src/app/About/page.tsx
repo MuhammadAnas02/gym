@@ -9,9 +9,9 @@ import pic6 from '@/pic6.png'
 
 export default function About() {
   return (
-    <div  className="bg-black w-full h-auto pt-11 pl-6" id="about">
+    <div  className="bg-black w-full h-auto pt-11 pl-6 mb-5" id="about">
   <h1 className="text-white text-4xl text-center font-medium">
-    Fitness Plans & <span className="text-[#FF921B]">Nutritions</span>
+    Fitness Plans & <span className="text-[#31b6aa]">Nutritions</span>
   </h1>
 
   <div className="flex flex-wrap justify-between mt-14 gap-10 px-[19vw]">
@@ -25,13 +25,14 @@ export default function About() {
     ].map((item, index) => (
       <div
         key={index}
-        className="w-[300px] sm:w-[200px] hover:scale-105 duration-200 text-center"
+        className="w-[300px] mx-auto  sm:w-[200px] hover:scale-105 duration-200 text-center mb-4"
       >
         <Image
           src={item.src}
           alt={item.alt}
           className="w-full h-auto rounded-md "
           sizes="icon"
+          
         />
         <p className="text-white mt-4 text-sm sm:text-base">
           {item.text}

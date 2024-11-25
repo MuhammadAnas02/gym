@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section id='Contact' className="text-gray-600 body-font relative bg-black">
+    <section id='contact' className="text-[#31b6aa] body-font relative bg-black">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col text-center w-full mb-12">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#31b6aa]">Contact Us</h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">you can feel free to ask any question about your quires related to fitness.</p>
       </div>
       <form action="https://formspree.io/f/meoqgdaa"

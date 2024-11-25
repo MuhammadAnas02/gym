@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import gym from '../gym/src/gym-fitness-web-banner-template.png'
 
 const config: Config = {
     darkMode: ["class"],
@@ -9,6 +10,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage:{
+			background: '../gym/src/gym-fitness-web-banner-template.png'
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
